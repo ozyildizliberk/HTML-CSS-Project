@@ -1,0 +1,182 @@
+<html>
+<head>
+<link rel="stylesheet" type="text/css" href="form.css"/>
+<title>İş Başvuru Formu</title>
+</head>
+<body>
+<form name="isbasvuru" action="form.html" method="post">
+<table align="center" border="0" bgcolor="#ced6e0">
+<tr>
+<td colspan="2">
+<h1><cer1><br>ÖZYILDIZLI MALİMÜŞAVİRLİK</cer1><br>serbest muhasebe denetçi yardımcısı<br><cer2>İş başvuru formu</cer2></h1>
+</td>
+</tr>
+<tr>
+<td align="center" colspan="2">
+<b>
+<stil>t.c. kimlik numarası</b><br><input type="text" maxlength="11" pattern="\d*" name="tcno" title="Sadece rakamlar ile doldurulmalıdır." required></stil>
+<br><br>
+<b>
+<stil>ad</b>&nbsp;<input type="text" name="ad" size="15" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required></stil>
+&nbsp;&nbsp;<b>
+<stil>soyad</b>&nbsp;<input type="text" name="soyad" size="15" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required></stil><br><br>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>doğum<br>tarihi</stil></td>
+<td>
+<input type="date" name="dtarihi" style="width:40%" required></td>
+</tr>
+<tr>
+<td align="center"><stil>Doğum <br>Yeri</stil></td>
+<td>
+<select name="dogumyeri" style="width:40%">
+    <option>Seçiniz</option>
+    <option>ADANA</option>
+    <option>ANKARA</option>
+    <option>ANTALYA</option>
+    <option>AYDIN</option>
+    <option>BALIKESİR</option>
+    <option>BARTIN</option>
+    <option>BOLU</option>
+    <option>BURDUR</option>
+    <option>BURSA</option>
+    <option>ÇANAKKALE</option>
+    <option>EDİRNE</option>
+    <option>ERZURUM</option>
+    <option>ESKİŞEHİR</option>
+    <option>İSTANBUL</option>
+    <option>İZMİR</option>
+    <option>KARS</option>
+    <option>KAYSERİ</option>
+    <option>KONYA</option>
+    <option>MANİSA</option>
+    <option>MUĞLA</option>
+    <option>RİZE</option>
+    <option>SAKARYA</option>
+    <option>SİVAS</option>
+    <option>TRABZON</option>
+    <option>ZONGULDAK</option>
+</select>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>cinsiyet</stil></td>
+<td>
+<input type="radio" name="cinsiyet" value="erkek" required><b>Erkek</b>
+<input type="radio" name="cinsiyet" value="kadın"><b>Kadın</b>
+</td>
+</tr>
+<tr>
+<td align="center"><b><stil>adres</b></stil></td>
+<td>
+<textarea name="adres" cols="61" rows="3" required></textarea >
+</td>
+</tr>
+<tr>
+<td align="center"><stil>(*0 olmadan)<br>telefon</stil></td>
+<td>
+<p>Cep:&nbsp;<input type="text"  size="10" maxlength="10" pattern="\d*" name="telefon" title="Sadece rakamlar ile doldurulmalıdır." required>
+Ev:&nbsp;<input type="text"  size="10" maxlength="10" pattern="\d*" name="telefon" title="Sadece rakamlar ile doldurulmalıdır." required></p>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>yabancı dil</stil></td>
+<td>
+<li><input type="checkbox" name="en"><b>İngilizce</b></li>
+<li><input type="checkbox" name="alm"><b>Almanca</b></li>
+<li><input type="checkbox" name="fr"><b>Fransızca</b></li>
+<li><input type="checkbox" name="es"><b>İspanyolca</b></li>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>Bilgisayar<br>Program <br>Bilgisi</stil></td>
+<td><br>
+<p><b>1-&nbsp;<input type="text"  name="pc1" size="20" required>
+&nbsp;3-<input type="text"  name="pc2" size="20" required><br><br>
+&nbsp;2-&nbsp;<input type="text"  name="pc3" size="20" required>
+&nbsp;4-<input type="text"  name="pc2" size="20" required>
+</b></p><br>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>eğitim<br> durumu</stil></td>
+<td>
+<select name="egitim" style="width:25%">
+<option required>Seçiniz</option> 
+<option value="lise">Lise</option> 
+<option value="onlisans">Ön Lisans</option>
+<option value="lisans">Lisans</option>
+<option value="ylisans">Y.Lisans</option>
+<option value="doktora">Doktora</option>
+</td>
+</tr> 
+<tr>
+<td align="center"><stil>kan grubu</stil></td>
+<td>
+<select name="kangrup" size="5" style="width:25%" multiple>  
+<option>A Rh(+) </option>  
+<option>A Rh(-)</option>  
+<option>B Rh(+)</option>  
+<option>B Rh(-)</option>  
+<option>AB Rh(+)</option>  
+<option>AB Rh(-)</option>  
+<option>0 Rh(+)</option>  
+<option>0 Rh(-)</option>
+</select><br>
+</td>
+</tr>
+<tr>
+<td align="center"><br><stil>askerlik</stil></td>
+<td>
+<br><select name="askerlik" style="width:25%">
+<option>Seçiniz</option> 
+<option value="tecilli">Tecilli</option> 
+<option value="muaf">Muaf</option>
+<option value="yapıldı">Yapıldı</option>
+</select>
+</td>
+</tr>
+<tr>
+<td align="center"><br><stil>medeni<br> durumu</stil></td>
+<td>
+<br><input type="radio" name="medenihal" value="erkek" required><b>Evli</b>
+<input type="radio" name="medenihal" value="kadın"><b>Bekar</b>
+<input type="radio" name="medenihal" value="kadın"><b>Dul</b>
+</td>
+</tr>
+<tr>
+<td align="center"><br><stil>İş <br>deneyimleri</stil></td>
+<td>
+<br><p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İş Yeri-Firma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Görev / Süre&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ayrılış Nedeni</p>
+<p>1-&nbsp;<input type="text" name="is1" size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="gorevs1"size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="ayrneden1" size="12" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required></p>
+<p>2-&nbsp;<input type="text" name="is2" size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="gorevs2"size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="ayrneden2" size="12" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required></p>
+<p>3-&nbsp;<input type="text"  name="is3" size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="gorevs3"size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="ayrlneden3" size="12" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required><br><br></p>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>referanslar</stil></td>
+<td>
+<p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Ad-Soyad&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;İş Yeri-Firma&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Tel. No</p>
+<p>1-&nbsp;<input type="text"  name="ad1" size="12" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="firma1" size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="tel1" size="12" maxlength="10" pattern="\d*" name="telefon" title="Sadece rakamlar ile doldurulmalıdır." required></p>
+<p>2-&nbsp;<input type="text"  name="ad2" size="12" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="firma2" size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="tel2" size="12" maxlength="10" pattern="\d*" name="telefon" title="Sadece rakamlar ile doldurulmalıdır." required></p>
+<p>3-&nbsp;<input type="text"  name="ad3" size="12" pattern="[a-zA-Z-]+" title="Sadece harfler ile doldurulmalıdır." required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"  name="firma3" size="12" required>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="tel3" size="12" maxlength="10" pattern="\d*" name="telefon" title="Sadece rakamlar ile doldurulmalıdır." required><br><br></p>
+</td>
+</tr>
+<tr>
+<td align="center"><stil>eklemek<br>İstediğiniz<br>diğer bilgiler</stil></td>
+<td>
+<textarea name="dbilgi" rows="6" style="width: 100%" placeholder="Kendinizle ilgili eklemek istediğiniz diğer bilgileri buraya yazabilirsiniz." required></textarea>
+</td>
+</tr>
+<tr>
+<td colspan="2">
+<img src="resim.png" width="35" height="35">&nbsp;<b>Fotoğraf</b>&nbsp;<input type="file" name="resim" required>
+<m1><input type="submit" name="basvur" value="BAŞVUR"></m1>
+<input type="reset" name="temizle" value="TEMİZLE">
+</td>
+</tr>      		
+</table>
+</form>
+</body>
+</html>

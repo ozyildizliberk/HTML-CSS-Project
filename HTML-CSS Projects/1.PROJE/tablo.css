@@ -1,0 +1,49 @@
+td{
+	color:#1b1b1b;
+	text-align:center;
+	font-family:Cursive;
+	font-weight:bold;
+	font-size:13px;
+	text-transform:capitalize;
+	border:2px;
+}
+.abaslık
+{
+	color:#1e272e  ;
+	font-family:Malvie;
+	font-size:16px;
+	font-weight:bold;
+	line-height:30px;
+	padding:3px;
+}
+#baslık	
+{
+	color:#003399;
+	font-family:Cursive;
+	font-size:14px;
+	line-height:20px;
+	font-style:italic;
+	text-decoration:underline;
+	border:2px;
+}
+#anabaslık	
+{
+	color:#003399;
+	font-family:Cursive;
+	font-size:14px;
+	line-height:20px;
+	font-style:italic;
+	border:2px;
+}
+#baslıkgunler
+{
+	color:#003399;
+	font-family:Cursive;
+	font-size:14px;
+	line-height:20px;
+	font-style:italic;
+	border:2px;
+}
+
+
+

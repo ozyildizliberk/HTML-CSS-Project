@@ -1,0 +1,69 @@
+h1{  
+	color:092b46; /* ana başık rengi */
+	font-family:Vendura; /* ana başık font tarzı*/
+	font-size:25px; /* ana başık yazı boyutu*/
+	text-align:center; /* ana başık yazı konumu*/
+	line-height:25px; /* ana başık satır yüksekliği*/
+	text-transform:capitalize;  /* ana başlığın sadece baş harflerinin büyüklüğü*/
+	font-style:normal;  /* ana başık font stili*/
+	font-weight:bold; /* ana başlığın kalın yazılması */
+}
+
+stil{
+	font-family:Verdana; /* alt başlıkların font tarzı*/
+	color:092b46; /* alt başlıkların font rengi*/
+	font-size:14px; /* alt başlıkların font büyüklüğü*/
+	font-style:normal; /* alt başlıkların font stili*/
+	font-weight:bold; /* alt başlıkların kalın yazılması*/
+	text-decoration:underline; /* alt başlıkların altı çizili hali*/
+    text-transform:capitalize; /* alt başlıkların sadece baş harflerinin büyüklüğü*/
+}
+
+li{
+	list-style-position:outside;  /* checkboxın yanındaki liste gifinin hiza tarzı*/
+	list-style-type:decimal;  /* liste elemanlarının başında görünecek madde iminin tarzı*/
+	list-style-image:url(ok.gif) /* checkboxda kullanılan gif */
+}
+
+p{
+	font-family:Verdana; /* iç yazıların font tarzı*/
+	color:092b46;  /* iç yazıların font rengi*/
+	font-size:14px;  /* iç yazıların boyutu*/
+	font-style:normal;  /* iç yazıların stili*/
+	font-weight:bold;   /* iç yazıların kalın yazılması*/
+    text-transform:capitalize;   /* iç yazıların baş harflerinin büyük yazılması*/
+	text-indent:5px;  /* Metnin sol kısımdan girintisi*/
+}
+
+b{   /* 2 listbox ve 1 checkbox da kullanıldı*/
+	font-family:Verdana;   /* yazının stili*/
+	color:092b46;  /* yazının rengi*/
+	font-size:13px;  /* yazının boyutu*/
+	font-style:normal;  /* yazının stili */
+	font-weight:bold;  /* yazının kalın yazılması*/
+    text-transform:capitalize;  /* yazının baş harflerinin büyük yazılması*/
+}
+
+m1{
+	margin-left:75px;  /* sol kısımdan boşluk bırakıldı*/
+}
+
+cer1{
+	border-width:2px; /* çizgi kalınlığı*/
+	border-top: solid;	/* çizgi biçimi  */
+	border-color:#092b46; /* çizgi rengini belirler */
+	padding-top:5px; /* çizgiyi 5px yukarı çıkarır*/
+}
+
+cer2{
+	border-width:2px; /* çizgi kalınlığı*/
+	border-bottom: solid;/* çizgi biçimi */
+    border-color:#092b46; /* çizgi rengini belirler */
+	padding-bottom:3px; /* çizgiyi 3px aşağı indirir*/ 
+}
+
+body{
+	background-color:#FFFACD;
+
+}
+
